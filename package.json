@@ -1,0 +1,48 @@
+{
+  "name": "vue-hls-ply",
+  "version": "1.0.0",
+  "description": "vue hls ply,audio,video",
+  "main": "lib/vue-hls-ply.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config build/webpack.common.js && webpack --config build/webpack.components.js",
+    "dev": "webpack-dev-server --config build/webpack.dev.js"
+  },
+  "keywords": [
+    "hls ply",
+    "vue ply",
+    "vue hls ply",
+    "vue hls",
+    "vue video ply",
+    "vue audio ply"
+  ],
+  "homepage": "https://github.com/JMRezaee/vue-hls-ply",
+  "bugs": {
+    "url": "https://github.com/JMRezaee/vue-hls-ply/issues"
+  },
+  "author": "JMRezaee",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^2.2.0",
+    "vue": "^2.6.10",
+    "vue-html-loader": "^1.2.4",
+    "vue-loader": "^15.7.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "dependencies": {
+    "hls.js": "^0.12.4",
+    "vue-template-compiler": "^2.6.10"
+  }
+}

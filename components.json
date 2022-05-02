@@ -1,0 +1,4 @@
+{
+    "aplayer": "./packages/aplayer",
+    "vplayer": "./packages/vplayer"
+}
