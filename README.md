@@ -2,13 +2,13 @@
 
 vue hls ply,audio,video
 
-## 安装
+## Install
 
 ```
 npm install vue-hls-ply
 ```
 
-## 支持的事件
+## Supported Events
 
 - onplay: start playing.
 - onplaying: Play has started.
@@ -23,7 +23,7 @@ npm install vue-hls-ply
 - ontimeupdate: A script that runs when the playback position changes (such as when the user fast-forwards to a different position in the media).
 - onvolumechange: Script that runs whenever the volume changes (including muting the volume). (video only)
 
-## 全局使用
+## Global use
 
 ```
 //入口index.js
@@ -51,7 +51,7 @@ methods:{
 }
 ```
 
-## 使用 audio
+## Use audio
 
 ```
 import { aplayer } from 'vue-hls-ply'
@@ -73,7 +73,7 @@ methods:{
 }
 ```
 
-## 使用 video
+## Use video
 
 ```
 import { vplayer } from 'vue-hls-ply'
