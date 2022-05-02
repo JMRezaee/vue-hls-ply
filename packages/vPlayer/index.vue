@@ -123,26 +123,26 @@ export default {
         this.onMediaPause();
         this.$emit("onabort", e);
       });
-      this.media.addEventListener("progress", (e) => {
-        this.onMediaProgress();
-        this.$emit("onprogress", e);
-      });
-      this.media.addEventListener("durationchange", (e) => {
-        this.onMediaDurationChange();
-        this.$emit("ondurationchange", e);
-      });
-      this.media.addEventListener("seeking", (e) => {
-        this.onMediaSeeking();
-        this.$emit("onseeking", e);
-      });
-      this.media.addEventListener("seeked", (e) => {
-        this.onMediaSeeking();
-        this.$emit("onseeked", e);
-      });
-      this.media.addEventListener("timeupdate", (e) => {
-        this.onMediaSeeking();
-        this.$emit("ontimeupdate", e);
-      });
+      // this.media.addEventListener("progress", (e) => {
+      //   this.onMediaProgress();
+      //   this.$emit("onprogress", e);
+      // });
+      // this.media.addEventListener("durationchange", (e) => {
+      //   this.onMediaDurationChange();
+      //   this.$emit("ondurationchange", e);
+      // });
+      // this.media.addEventListener("seeking", (e) => {
+      //   this.onMediaSeeking();
+      //   this.$emit("onseeking", e);
+      // });
+      // this.media.addEventListener("seeked", (e) => {
+      //   this.onMediaSeeking();
+      //   this.$emit("onseeked", e);
+      // });
+      // this.media.addEventListener("timeupdate", (e) => {
+      //   this.onMediaSeeking();
+      //   this.$emit("ontimeupdate", e);
+      // });
       this.media.addEventListener("volumechange", (e) => {
         this.onMediaVolumeChange(this.media.volume);
         this.$emit("onvolumechange", e);
