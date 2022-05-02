@@ -1,6 +1,6 @@
 {
   "name": "vue-hls-ply",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "vue hls ply,audio,video",
   "main": "lib/vue-hls-ply.js",
   "scripts": {

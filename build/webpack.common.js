@@ -5,7 +5,7 @@ const config = {
     devtool: '#source-map',
     entry: './src/index.js',
     output: {
-        filename: 'vue-hls-player.js',
+        filename: 'vue-hls-ply.js',
         path: path.join(__dirname, '../lib'),
         chunkFilename: '[id].js',
         libraryExport: 'default',

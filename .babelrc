@@ -4,9 +4,9 @@
       "utils": {
         "plugins": [
           ["module-resolver", {
-            "root": ["vue-hls-player"],
+            "root": ["vue-hls-ply"],
             "alias": {
-              "vue-hls-player/src": "vue-hls-player/lib"
+              "vue-hls-ply/src": "vue-hls-ply/lib"
             }
           }]
         ]
