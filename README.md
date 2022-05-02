@@ -26,7 +26,7 @@ npm install vue-hls-ply
 ## Global use
 
 ```
-//入口index.js
+//index.js
 import player from 'vue-hls-ply'
 Vue.use(player)
 
