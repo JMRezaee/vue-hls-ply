@@ -1,6 +1,6 @@
 {
   "name": "vue-hls-ply",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "vue hls ply,audio,video",
   "main": "lib/vue-hls-ply.js",
   "scripts": {
@@ -43,7 +43,11 @@
   },
   "dependencies": {
     "hls.js": "^0.12.4",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "video.js": "^6.6.0",
+    "videojs-contrib-hls": "^5.12.2",
+    "videojs-flash": "^2.1.0",
+    "videojs-hotkeys": "^0.2.20"
   },
   "directories": {
     "example": "example",
